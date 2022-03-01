@@ -1,0 +1,4 @@
+#Tue Mar 01 18:39:23 GMT 2022
+base.0=/Users/admin-oda/Desktop/projet_mobile_g3/OdaFlutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
