@@ -47,6 +47,24 @@ class BannerCard extends StatelessWidget {
             SizedBox(height: 10),
             Row(
               children: [
+                // Align(
+                //   alignment: Alignment.topLeft,
+                //   child: Row(
+                //     children: [
+                //       Text(
+                //         "ODA CAGNOTTE",
+                //         style: TextStyle(
+                //           color: Color(0xFF000000),
+                //           fontSize: 25,
+                //           fontWeight: FontWeight.bold,
+                //           fontFamily: 'Poppins',
+                //         ),
+                //       ),
+                //       Image.asset("assets/images/im2.png",
+                //           height: size.height * 0.1),
+                //     ],
+                //   ),
+                // ),
                 Align(
                   alignment: Alignment.topLeft,
                   child: FutureBuilder<Count>(

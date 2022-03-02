@@ -1,4 +1,4 @@
-#Wed Mar 02 19:38:11 GMT 2022
-base.0=/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Mar 02 21:01:03 GMT 2022
+base.0=/Users/admin25/Documents/odacagnotte/oda_cash_vault_mobile/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

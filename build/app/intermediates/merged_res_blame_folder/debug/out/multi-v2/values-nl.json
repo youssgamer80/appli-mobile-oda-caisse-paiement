@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/Users/admin25/Documents/odacagnotte/oda_cash_vault_mobile/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/Users/admin25/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/values-nl/values-nl.xml",

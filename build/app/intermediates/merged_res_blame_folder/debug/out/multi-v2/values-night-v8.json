@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/admin25/Documents/odacagnotte/oda_cash_vault_mobile/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/admin25/Downloads/oda_cash_vault_mobile-main/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/admin25/Documents/odacagnotte/oda_cash_vault_mobile/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

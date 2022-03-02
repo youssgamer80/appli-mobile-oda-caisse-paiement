@@ -2,6 +2,7 @@ import 'package:adaptive_action_sheet/adaptive_action_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:oda_cagnotte/components/CustomDialog.dart';
+import 'package:oda_cagnotte/components/appb.dart';
 import 'package:oda_cagnotte/components/bannerCard.dart';
 import 'package:oda_cagnotte/components/card.dart';
 import 'package:oda_cagnotte/components/motifscreen.dart';
@@ -29,8 +30,13 @@ class _DashboardHomeState extends State<DashboardHome> {
         brightness: Brightness.dark,
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        toolbarHeight: 230,
-        flexibleSpace: BannerCard(),
+        toolbarHeight: 70,
+        flexibleSpace: Center(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 42.0),
+            child: Appb(),
+          ),
+        ),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -38,74 +44,76 @@ class _DashboardHomeState extends State<DashboardHome> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Align(
-                alignment: Alignment.topLeft,
-                child: Row(
-                  children: [
-                    Text(
-                      "ODA CAGNOTTE",
-                      style: TextStyle(
-                        color: Color(0xFF000000),
-                        fontSize: 25,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: 'Poppins',
-                      ),
-                    ),
-                    Image.asset("assets/images/im2.png",
-                        height: size.height * 0.1),
-                  ],
-                ),
-              ),
+              // Align(
+              //   alignment: Alignment.topLeft,
+              //   child: Row(
+              //     children: [
+              //       Text(
+              //         "ODA CAGNOTTE",
+              //         style: TextStyle(
+              //           color: Color(0xFF000000),
+              //           fontSize: 25,
+              //           fontWeight: FontWeight.bold,
+              //           fontFamily: 'Poppins',
+              //         ),
+              //       ),
+              //       Image.asset("assets/images/im2.png",
+              //           height: size.height * 0.1),
+              //     ],
+              //   ),
+              // ),
+              SizedBox(height: 3),
+              BannerCard(),
               SizedBox(height: 3),
               Center(
                 child: Column(
                   children: [
-                    GestureDetector(
-                      onTap: () {
-                        showAdaptiveActionSheet(
-                          context: context,
-                          androidBorderRadius: 30,
-                          actions: <BottomSheetAction>[
-                            BottomSheetAction(
-                                title: const Text('Liste des Academiciens',
-                                    style: TextStyle(
-                                        fontSize: 13, fontFamily: 'Poppins')),
-                                onPressed: () {
-                                  Navigator.of(context).push(MaterialPageRoute(
-                                      builder: (context) =>
-                                          AcademicienListView()));
-                                }),
-                            BottomSheetAction(
-                                title: const Text('Créer un Academiciens',
-                                    style: TextStyle(
-                                        fontSize: 13, fontFamily: 'Poppins')),
-                                onPressed: () {
-                                  Navigator.of(context).push(MaterialPageRoute(
-                                      builder: (context) =>
-                                          AcademicienBottomSheet()));
-                                }),
-                          ],
-                          cancelAction: CancelAction(
-                              title: const Text('retour',
-                                  style: TextStyle(
-                                      fontSize: 13,
-                                      fontFamily:
-                                          'Poppins'))), // onPressed parameter is optional by default will dismiss the ActionSheet
-                        );
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     showAdaptiveActionSheet(
+                    //       context: context,
+                    //       androidBorderRadius: 30,
+                    //       actions: <BottomSheetAction>[
+                    //         BottomSheetAction(
+                    //             title: const Text('Liste des Academiciens',
+                    //                 style: TextStyle(
+                    //                     fontSize: 13, fontFamily: 'Poppins')),
+                    //             onPressed: () {
+                    //               Navigator.of(context).push(MaterialPageRoute(
+                    //                   builder: (context) =>
+                    //                       AcademicienListView()));
+                    //             }),
+                    //         BottomSheetAction(
+                    //             title: const Text('Créer un Academiciens',
+                    //                 style: TextStyle(
+                    //                     fontSize: 13, fontFamily: 'Poppins')),
+                    //             onPressed: () {
+                    //               Navigator.of(context).push(MaterialPageRoute(
+                    //                   builder: (context) =>
+                    //                       AcademicienBottomSheet()));
+                    //             }),
+                    //       ],
+                    //       cancelAction: CancelAction(
+                    //           title: const Text('retour',
+                    //               style: TextStyle(
+                    //                   fontSize: 13,
+                    //                   fontFamily:
+                    //                       'Poppins'))), // onPressed parameter is optional by default will dismiss the ActionSheet
+                    //     );
 
-                        // showDialog(
-                        //   context: context,
-                        //   builder: (BuildContext context) => CustomDialog(
-                        //     title: "",
-                        //     description: "",
-                        //     buttonText: "Okay",
-                        //   ),
-                        // );
-                      },
-                      child: CardMenu(
-                          image: 'assets/images/college.png',
-                          text: 'Academiciens'),
-                    ),
+                    //     // showDialog(
+                    //     //   context: context,
+                    //     //   builder: (BuildContext context) => CustomDialog(
+                    //     //     title: "",
+                    //     //     description: "",
+                    //     //     buttonText: "Okay",
+                    //     //   ),
+                    //     // );
+                    //   },
+                    //   child: CardMenu(
+                    //       image: 'assets/images/college.png',
+                    //       text: 'Academiciens'),
+                    // ),
                     GestureDetector(
                       onTap: () {
                         showAdaptiveActionSheet(
