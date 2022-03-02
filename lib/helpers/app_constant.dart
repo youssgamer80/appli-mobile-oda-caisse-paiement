@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppConstants {
-  static const String URL_BASE = "https://oda-cagnotte.herokuapp.com/api/v1";
+  static const String URL_BASE = "http://192.168.252.107:8000/api/v1";
 
   static const String placeholder = "assets/images/placeholder.jpg";
 //tailles des polices

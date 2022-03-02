@@ -1,4 +1,4 @@
-#Tue Mar 01 18:39:23 GMT 2022
-base.0=/Users/admin-oda/Desktop/projet_mobile_g3/OdaFlutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
+#Wed Mar 02 19:38:11 GMT 2022
+base.0=/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

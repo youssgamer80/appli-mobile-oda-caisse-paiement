@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin-oda/Desktop/projet_mobile_g3/OdaFlutter/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/Users/admin-oda/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "source": "/Users/admin25/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/admin-oda/Desktop/projet_mobile_g3/OdaFlutter/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/values-ja/values-ja.xml",
+            "outputFile": "/Users/admin25/Downloads/oda_cash_vault_mobile-main/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/Users/admin-oda/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "source": "/Users/admin25/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

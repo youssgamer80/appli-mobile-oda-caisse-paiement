@@ -54,7 +54,7 @@ class BannerCard extends StatelessWidget {
                       builder: (context, snapshot) {
                         if (snapshot.hasData) {
                           return Text(
-                            '${snapshot.data!.solde} FCfa',
+                            '${snapshot.data!.solde} FCFA',
                             style: TextStyle(
                               fontSize: 35,
                               color: Colors.white,

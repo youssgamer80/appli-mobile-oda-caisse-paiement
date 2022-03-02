@@ -51,7 +51,7 @@ Future<List<Academicien>> allAcademicien() async {
 
 Future<List<Motif>> deleteMotif(String id, BuildContext context) async {
   final response = await http.delete(
-      Uri.parse("https://oda-cagnotte.herokuapp.com/api/v1/deleted-motif/$id"));
+      Uri.parse("http://192.168.252.107:8000/api/v1/deleted-motif/$id"));
   if (response.statusCode == 200) {
     Map<String, dynamic> data = jsonDecode(response.body);
     return fetchMotif();
@@ -73,8 +73,8 @@ Future<List<Academicien>> deleteAcademicien(String id) async {
 
 Future<List<Motif>> fetchMotif() async {
   List<Motif> _list = [];
-  final response = await http.get(
-      Uri.parse("https://oda-cagnotte.herokuapp.com/api/v1/list-of-motif/"));
+  final response = await http
+      .get(Uri.parse("http://192.168.252.107:8000/api/v1/list-of-motif/"));
   if (response.statusCode == 200) {
     Map<String, dynamic> data = jsonDecode(response.body);
     Iterable it = data['content'];
@@ -87,7 +87,7 @@ Future<List<Motif>> fetchMotif() async {
 
 Future<Count> getCounts() async {
   final http.Response response = await http.get(
-    Uri.parse("https://oda-cagnotte.herokuapp.com/api/v1/counte-data-items/"),
+    Uri.parse("http://192.168.252.107:8000/api/v1/counte-data-items/"),
     headers: <String, String>{
       'Content-Type': 'application/json;charset=UTF-8',
     },
