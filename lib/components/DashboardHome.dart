@@ -31,11 +31,9 @@ class _DashboardHomeState extends State<DashboardHome> {
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         toolbarHeight: 70,
-        flexibleSpace: Center(
-          child: Padding(
-            padding: const EdgeInsets.only(top: 42.0),
-            child: Appb(),
-          ),
+        flexibleSpace: Padding(
+          padding: const EdgeInsets.only(top: 42.0, left: 40),
+          child: Appb(),
         ),
       ),
       body: SingleChildScrollView(
